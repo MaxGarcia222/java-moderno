@@ -1,3 +1,5 @@
+package io.github.MaxGarcia222;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -5,12 +7,13 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ValidadorPedidoTest {
 
     @Test
-    void sinLanzarException() {
+    void pedidoValidoNoLanzaExcepcion() {
         // Arrange (preparar)
         ValidadorPedido validador = new ValidadorPedido();
 
         // Assert (verificar)
-        assertDoesNotThrow(() -> validador.validar(10, 20, "max@gmail.com"));    }
+        assertDoesNotThrow(() -> validador.validar(10, 20, "max@gmail.com"));
+    }
 
     @Test
     void cantidadCeroLanzaExcepcion() {

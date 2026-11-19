@@ -1,3 +1,6 @@
+package io.github.MaxGarcia222;
+
+
 public class CalculadoraDescuento {
 
     public int aplicar(int precio, int porcentaje) {

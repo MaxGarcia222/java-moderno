@@ -1,3 +1,5 @@
+package io.github.MaxGarcia222;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -30,7 +32,7 @@ class CalculadoraDescuentoTest {
 
 
     /*Nivel 2 (con pistas)
-        Agregá tres tests más a CalculadoraDescuentoTest:
+        Agregá tres tests más a io.github.MaxGarcia222.CalculadoraDescuentoTest:
 
         Un descuento de 0% devuelve el mismo precio.
         Un descuento de 100% devuelve 0.

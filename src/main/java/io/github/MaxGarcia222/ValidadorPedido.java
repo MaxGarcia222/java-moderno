@@ -1,3 +1,5 @@
+package io.github.MaxGarcia222;
+
 public class ValidadorPedido {
     public void validar(int cantidad, int stockDisponible, String emailCliente){
         if (cantidad <= 0){
